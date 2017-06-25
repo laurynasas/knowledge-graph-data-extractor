@@ -1,0 +1,4 @@
+*.txt
+chromedriver
+*.log
+.idea/
