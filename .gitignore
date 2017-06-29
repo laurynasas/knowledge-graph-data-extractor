@@ -2,3 +2,5 @@
 chromedriver
 *.log
 .idea/
+test-output/
+phantomjs
