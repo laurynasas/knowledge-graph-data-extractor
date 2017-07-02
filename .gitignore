@@ -4,3 +4,4 @@ chromedriver
 .idea/
 test-output/
 phantomjs
+*.json
