@@ -5,3 +5,4 @@ chromedriver
 test-output/
 phantomjs
 *.json
+resources/

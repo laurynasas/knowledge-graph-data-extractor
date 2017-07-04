@@ -13,7 +13,7 @@ visited = []
 frontier = []
 
 f_rv = open("already_visited.txt", "r")
-f_songs = open("songs_alread_visited.txt","w")
+f_songs = open("songs_already_visited.txt","w")
 content = f_rv.readlines()
 for line in content:
     visited.append(line.replace("\n","").decode('utf-8'))
