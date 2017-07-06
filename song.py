@@ -5,6 +5,9 @@ class Song:
     def __init__(self, title):
         self._title = title
 
+    def get_title(self):
+        return self._title
+
 def load_songs(songs_file_dir, sources_to_load, network):
     songs = open(songs_file_dir, "r")
     songs_content = songs.readlines()

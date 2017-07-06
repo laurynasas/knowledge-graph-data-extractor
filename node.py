@@ -50,3 +50,6 @@ class Node:
         for song in self.songs[:n]:
             print_string += song._title + " | "
         return print_string
+
+    def get_songs(self):
+        return self.songs
